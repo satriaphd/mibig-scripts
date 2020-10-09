@@ -1,0 +1,24 @@
+
+-- Preparing data
+
+1) Start by generating old version jsons and gbks (using Marnix's original script for MIBiG v1)
+
+2) Put these jsons into folder: inputs/json_1.4/
+
+3) Put the respective old gbk files (the "final" ones) into inputs/cached_mibig_finalgbks/
+
+-- Generating new jsons
+
+4) Run jupyter notebook and process through the phases accordingly (see programs/notebooks/):
+-> phase_0_to_5.ipynb
+-> phase_6.ipynb
+-> phase_7.ipynb
+-> phase_final.ipynb
+
+5) the generated jsons will be available in folder outputs/json_2.0/ (or retired/ if something is wrong with the annotation)
+
+-- Quality checking and uploading to MIBiG
+6) Run antismash-mibig (https://github.com/mibig-secmet/antismash-mibig), make sure nothing is wrong (both the generated mibig and antismash5 pages)
+e.g. --> python run_mibig.py <path_to_2.0_json> <path_to_folder_containing_original_ncbi_gbk> <path_to_cache_folder> <path_to_output_folder> <path_to_log_file>
+
+7) After checking, make a pull request to mibig-json (https://github.com/mibig-secmet/mibig-json), put your 2.0 json into the "pending" folder. example upload: https://github.com/mibig-secmet/mibig-json/commit/41401a0a069e96c7071e8b07ef478acf495f2200

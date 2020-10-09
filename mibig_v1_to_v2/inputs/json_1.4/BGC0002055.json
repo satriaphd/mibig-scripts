@@ -1,0 +1,616 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Michael Rust", 
+        "submitter_institution": "ETH Zurich", 
+        "submitter_email": "rustmi@ethz.ch"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0002055", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "10.1073/pnas.1919245117", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JAAHTG010000029.1", 
+                    "start_coord": 2626, 
+                    "end_coord": 89053, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Mycalamide A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10345974, 
+                "evidence_struct": [
+                    "NMR"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "ribosome"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mycH", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 2626, 
+                    "gene_endpos": 23382,
+		"strand": -1,
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycG", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 23395, 
+                    "gene_endpos": 24696,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "mono-oxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycF", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 24757, 
+                    "gene_endpos": 52482,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycE", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 52695, 
+                    "gene_endpos": 53504,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycK2", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 53595, 
+                    "gene_endpos": 54614,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 54692, 
+                    "gene_endpos": 54874,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycT", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 54861, 
+                    "gene_endpos": 55589,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "di-oxygenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycA", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 55634, 
+                    "gene_endpos": 56680,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycK1", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 56832, 
+                    "gene_endpos": 57869,
+		"strand": 1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycJ", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 58200, 
+                    "gene_endpos": 59327,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "mono-oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycI", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 59338, 
+                    "gene_endpos": 76785,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycB", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 76835, 
+                    "gene_endpos": 78193,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "enoyl reductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 78201, 
+                    "gene_endpos": 78329,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 78389, 
+                    "gene_endpos": 78607,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycD", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 78682, 
+                    "gene_endpos": 79809,
+		"strand": 1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycS", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 80158, 
+                    "gene_endpos": 81027,
+		"strand": 1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 81161, 
+                    "gene_endpos": 81376,
+		"strand": 1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycR", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 81544, 
+                    "gene_endpos": 83205,
+		"strand": 1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycQ", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 83202, 
+                    "gene_endpos": 84242,
+		"strand": 1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycC", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 84374, 
+                    "gene_endpos": 85378,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycL", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 85477, 
+                    "gene_endpos": 86259,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "enoyl-CoA hydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycP", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 86256, 
+                    "gene_endpos": 87521,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "3-hydroxy-3-methylglutaryl-CoA synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycM", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 87580, 
+                    "gene_endpos": 88827,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "ketosynthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mycN", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 88814, 
+                    "gene_endpos": 89053,
+		"strand": -1, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "None", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "trans_at": [], 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "None", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "mycM", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "Beta-branching"
+                            ], 
+                            "pks_mod_skip_iter": "Non-elongating"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "mycH", 
+                    "pks_module": [
+                        {
+                            "module_nr": "10", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "11", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither", 
+                            "comments": "oxygen insertion"
+                        }, 
+                        {
+                            "module_nr": "12", 
+                            "pks_domains": [
+                                "T", 
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "13", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "14", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "15", 
+                            "pks_domains": [
+                                "KS", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Non-elongating"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "mycI", 
+                    "pks_module": [
+                         {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "T", 
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "T", 
+                                "T", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Crotonase / Enoyl-CoA dehydratase"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "mod_pks_gene": "mycF", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Non-elongating"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "Pyran synthase"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "nrps_genes": [
+                {
+                    "nrps_gene": "mycH", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "16", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Arginine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "mycF", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

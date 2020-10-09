@@ -1,0 +1,4 @@
+mibig_v1_to_v2/outputs/*
+mibig_v1_to_v2/preprocessed/*
+!*.empty
+.ipynb_checkpoints
